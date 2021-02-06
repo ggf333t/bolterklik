@@ -1,0 +1,346 @@
+.mai_f00ter {
+  background-image: url(a.png);
+  background-size: 9px;
+  width: 1200px;
+  height: 200px;
+  border: 2px solid;
+  color: lime;
+}
+
+.mai_body {
+  background-image: url(a.png);
+  background-size: 147px;
+  width: 1900px;
+  height: 600px;
+  border: 2px solid;
+  color: silver;
+  resize: both;
+  overflow: scroll;
+}
+
+.mai_header {
+  background-image: url(a.png);
+  background-size: 1814px;
+  width: 1900px;
+  height: 88px;
+  border: 2px solid;
+  color: silver;
+}
+
+
+body {
+  background-image: url("Dhole_Dogs.png");
+  background-size: 333px;
+  background-repeat: repeat;
+  background-position: right top;
+  width: 1850px;
+  height: 777px;
+  border: 9px solid;
+  color: teal;
+  text-align: right;
+  padding: 20px;
+}
+
+.A {
+  background-image: url("Dhole_Dogs.png");
+  background-size: 11px;
+  background-repeat: repeat;
+  background-position: right top;
+  border: 4px dotted blue;
+  width: 750px;
+  height: 200px;
+  border: 3px solid;
+  color: khaki;
+  text-align: right;
+  padding: 20px;
+}
+.B {
+  background-image: url("Dhole_Dogs.png");
+  background-size: 75px;
+  background-repeat: repeat;
+  background-position: right top;
+  border: 4px dotted blue;
+  width: 900px;
+  height: 200px;
+  border: 3px solid;
+  color: #ff5a36;
+  text-align: right;
+  padding: 20px;
+}
+.C {
+  background-image: url("Dhole_Dogs.png");
+  background-size: 175px;
+  background-repeat: repeat;
+  background-position: right top;
+  border: 4px dotted blue;
+  width: 1800px;
+  height: 200px;
+  border: 3px solid;
+  color: darkseagreen;
+  text-align: right;
+  padding: 20px;
+}
+
+
+
+
+div.khaki {
+  background: rgba(240, 230, 140, 0.333);
+  color: white;
+}
+div.salmon {
+  background: rgba(250, 128, 114, 0.333);
+  color: silver;
+}
+div.cadetblue {
+  background: rgba(95, 158, 160, 0.333);
+  color: lime;
+}
+
+
+div.darkkhaki {
+  background: rgba(189, 183, 107, 0.333);
+  color: white;
+}
+div.coral {
+  background: rgba(255, 127, 80, 0.333);
+  color: silver;
+}
+div.indianred {
+  background: rgba(205, 92, 92, 0.333);
+  color: silver;
+}
+div.thistle {
+  background: rgba(216, 191, 216, 0.333);
+  color: silver;
+}
+div.cornflowerblue {
+  background: rgba(100, 149, 237, 0.333);
+  color: lime;
+}
+div.darkseagreen {
+  background: rgba(143, 188, 143, 0.333);
+}
+
+div.lightgoldenrodyellow {
+  background: rgba(250, 250, 210, 0.333);
+  color: white;
+}
+div.tomato {
+  background: rgba(255, 99, 71, 0.333);
+}
+div.firebrick {
+  background: rgba(178, 34, 34, 0.333);
+  color: silver;
+}
+div.rebeccapurple {
+  background: rgba(102, 51, 153, 0.333);
+}
+div.royalblue {
+  background: rgba(65, 105, 225, 0.333);
+  color: lime;
+}
+div.seagreen {
+  background: rgba(46, 139, 87, 0.333);
+}
+div.mistyrose {
+  background: rgba(255, 228, 225, 0.333);
+}
+div.dimgray {
+  background: rgba(105, 105, 105, 0.8);
+  color: white;
+}
+div.gainsboro {
+  background: rgba(220, 220, 220, 0.333);
+  color: black;
+}
+div.palevioletred {
+  background: rgba(219, 112, 147, 0.333);
+  color: pink;
+}
+div.mediumturquoise {
+  background: rgba(72, 209, 204, 0.333);
+  color: lime;
+}
+div.saddlebrown {
+  background: rgba(139, 69, 19, 0.333);
+  color: tan;
+}
+
+div.whiteonblack {
+  background: rgba(0, 0, 0, 0.67);
+  color: white;
+}
+div.blackonwhite {
+  background: rgba(255, 255, 255, 0.67);
+  color: black;
+}
+div.pinkongrey {
+  background: rgba(128, 128, 128, 0.5);
+  color: pink;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "y yy yy yy r r r r b b b b"
+    "y yyy o o rr rr p p bb bb g g"
+    "y oo rrr pp bbb gg w w l l e e"
+    "y oo rrr pp bbb gg ww ll ee i ii c"
+    "y oo rrr pp bbb gg ww ll ee i cc n"
+    "y oo rrr pp bbb gg ww ll ee i cc n"
+    "y oo rrr pp bbb gg ww ll ee i cc n"
+    "y oo rrr pp bbb gg ww ll ee i cc n"
+    "y oo rrr pp bbb gg ww ll ee i cc n"
+    "y oo rrr pp bbb gg ww ll ee i cc n"
+    "y oo rrr pp bbb gg ww ll ee i cc n"
+    "y oo rrr pp bbb gg ww ll ee i cc n";
+}
+
+div.lightgoldenrodyellow {
+}
+div.tomato {
+}
+div.firebrick {
+}
+div.rebeccapurple {
+}
+div.royalblue {
+}
+div.seagreen {
+}
+div.mistyrose {
+}
+div.dimgray {
+}
+div.gainsboro {
+}
+div.palevioletred {
+}
+
+.yy { grid-area: yy;
+  background: rgba(189, 183, 107, 0.333);
+  color: white;
+ }
+
+.y { grid-area: y;
+  background: rgba(240, 230, 140, 0.333);
+  color: white;
+ }
+
+.r { grid-area: r;
+  background: rgba(250, 128, 114, 0.333);
+  color: silver;
+}
+
+.b { grid-area: b;
+  background: rgba(95, 158, 160, 0.333);
+  color: lime;
+ }
+
+.yyy { grid-area: yyy;
+  background: rgba(250, 250, 210, 0.333);
+  color: white;
+ }
+
+.o { grid-area: o;
+  background: rgba(255, 127, 80, 0.333);
+  color: silver;
+ }
+
+.rr { grid-area: rr;
+  background: rgba(205, 92, 92, 0.333);
+  color: silver;
+ }
+
+.p { grid-area: p;
+  background: rgba(216, 191, 216, 0.333);
+  color: silver;
+ }
+
+.bb { grid-area: bb;
+  background: rgba(100, 149, 237, 0.333);
+  color: lime;
+ }
+
+.g { grid-area: g;
+  background: rgba(143, 188, 143, 0.333);
+ }
+
+.w { grid-area: w;
+  background: rgba(255, 228, 225, 0.333);
+ }
+
+.l { grid-area: l;
+  background: rgba(105, 105, 105, 0.8);
+  color: white;
+ }
+
+.e { grid-area: e;
+  background: rgba(220, 220, 220, 0.333);
+  color: black;
+ }
+
+.oo { grid-area: oo;
+  background: rgba(255, 99, 71, 0.333);
+ }
+
+.rrr { grid-area: rrr;
+  background: rgba(178, 34, 34, 0.333);
+  color: silver;
+ }
+
+.pp { grid-area: pp;
+  background: rgba(102, 51, 153, 0.333);
+ }
+
+.bbb { grid-area: bbb;
+  background: rgba(65, 105, 225, 0.333);
+  color: lime;
+ }
+
+.gg { grid-area: gg;
+  background: rgba(46, 139, 87, 0.333);
+ }
+
+.ww { grid-area: ww;
+  background: rgba(255, 228, 225, 0.333);
+ }
+
+.ll { grid-area: ll;
+  background: rgba(105, 105, 105, 0.8);
+  color: white;
+ }
+
+.ee { grid-area: ee;
+  background: rgba(220, 220, 220, 0.333);
+  color: black;
+ }
+
+.i { grid-area: i;
+  background: rgba(219, 112, 147, 0.333);
+  color: pink;
+ }
+
+.ii { grid-area: ii;
+  background: rgba(219, 112, 147, 0.333);
+  color: pink;
+ }
+
+.c { grid-area: c;
+  background: rgba(72, 209, 204, 0.333);
+  color: lime;
+ }
+
+.cc { grid-area: cc;
+  background: rgba(72, 209, 204, 0.333);
+  color: lime;
+ }
+
+.n { grid-area: n;
+  background: rgba(139, 69, 19, 0.333);
+  color: tan;
+ }
