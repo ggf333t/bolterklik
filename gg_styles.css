@@ -1,16 +1,7 @@
-
-
-
-.footer {
-  background-color: gray;
-}
-.tiledBackground {
-  background-image: url(A.png);
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
-  border: 2px solid;
-  color: pink;
+body {background-image: url('image1.png');}
+pre {color: white; background-color: rgb(0, 0, 0, 1.0); text-align: center;}
+div {
+  padding: 10px;
 }
 div.black_20percent {
   background: rgba(0, 0, 0, 0.2);
@@ -65,6 +56,7 @@ div.cornflowerblue {
 }
 div.darkseagreen {
   background: rgba(143, 188, 143, 0.333);
+  color: lime;
 }
 
 div.lightgoldenrodyellow {
@@ -87,6 +79,7 @@ div.royalblue {
 }
 div.seagreen {
   background: rgba(46, 139, 87, 0.333);
+  color: lime;
 }
 div.mistyrose {
   background: rgba(255, 228, 225, 0.333);
@@ -123,33 +116,170 @@ div.grey {
   background: rgba(128, 128, 128, 0.5);
   color: pink;
 }
-
-
-.mai_f00ter {
-  background-image: url(a.png);
-  background-size: 9px;
-  width: 1200px;
-  height: 200px;
-  border: 2px solid;
-  color: lime;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 3px 3px;
+  grid-template-areas:
+    "A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12";
 }
 
-.mai_body {
-  background-image: url(a.png);
-  background-size: 147px;
-  width: 1814px;
-  height: 650px;
-  border: 2px solid;
-  color: pink;
-  resize: both;
-  overflow: scroll;
+.A1 { grid-area: A1; }
+
+.A2 { grid-area: A2; }
+
+.A3 { grid-area: A3; }
+
+.A4 { grid-area: A4; }
+
+.A5 { grid-area: A5; }
+
+.A6 { grid-area: A6; }
+
+.A7 { grid-area: A7; }
+
+.A8 { grid-area: A8; }
+
+.A9 { grid-area: A9; }
+
+.A10 { grid-area: A10; }
+
+.A11 { grid-area: A11; }
+
+.A12 { grid-area: A12; }
+
+.grid-container-3x3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "top-left top-middle top-right"
+    "middle-left middle-middle middle-right"
+    "bottom-left bottom-middle bottom-right";
 }
 
-.mai_header {
-  background-image: url(a.png);
-  background-size: 1814px;
-  width: 1900px;
-  height: 88px;
-  border: 2px solid;
-  color: orangered;
+.top-left { grid-area: top-left;
+ }
+
+.top-middle { grid-area: top-middle; }
+
+.top-right { grid-area: top-right; }
+
+.middle-left { grid-area: middle-left; }
+
+.middle-middle { grid-area: middle-middle; }
+
+.middle-right { grid-area: middle-right; }
+
+.bottom-left { grid-area: bottom-left; }
+
+.bottom-middle { grid-area: bottom-middle; }
+
+.bottom-right { grid-area: bottom-right; }
+
+
+.grid-container-4x31 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 3px 3px;
+  grid-template-areas:
+    "one arena arena arena"
+    "two arena arena arena"
+    "three arena arena arena"
+    "four arena arena arena"
+    "five arena arena arena"
+    "six arena arena arena"
+    "seven arena arena arena"
+    "eight arena arena arena"
+    "nine arena arena arena"
+    "ten arena arena arena"
+    "eleven arena arena arena"
+    "twelve arena arena arena"
+    "thirteen arena arena arena"
+    "fourteen arena arena arena"
+    "fifthteen arena arena arena"
+    "sixteen arena arena arena"
+    "seventeen arena arena arena"
+    "eigtteen arena arena arena"
+    "nineteen arena arena arena"
+    "twenty arena arena arena"
+    "twenty-one arena arena arena"
+    "twenty-two arena arena arena"
+    "twenty-three arena arena arena"
+    "twenty-four arena arena arena"
+    "twenty-five arena arena arena"
+    "twenty-six arena arena arena"
+    "twenty-seven arena arena arena"
+    "twenty-eight arena arena arena"
+    "twenty-nine arena arena arena"
+    "thirty arena arena arena"
+    "thirty-one arena arena arena"
+    ". . . .";
 }
+
+.one { grid-area: one; }
+
+.two { grid-area: two; }
+
+.three { grid-area: three; }
+
+.four { grid-area: four; }
+
+.five { grid-area: five; }
+
+.six { grid-area: six; }
+
+.seven { grid-area: seven; }
+
+.eight { grid-area: eight; }
+
+.nine { grid-area: nine; }
+
+.ten { grid-area: ten; }
+
+.eleven { grid-area: eleven; }
+
+.twelve { grid-area: twelve; }
+
+.thirteen { grid-area: thirteen; }
+
+.fourteen { grid-area: fourteen; }
+
+.fifthteen { grid-area: fifthteen; }
+
+.sixteen { grid-area: sixteen; }
+
+.seventeen { grid-area: seventeen; }
+
+.eigtteen { grid-area: eigtteen; }
+
+.nineteen { grid-area: nineteen; }
+
+.twenty { grid-area: twenty; }
+
+.twenty-one { grid-area: twenty-one; }
+
+.twenty-two { grid-area: twenty-two; }
+
+.twenty-three { grid-area: twenty-three; }
+
+.twenty-four { grid-area: twenty-four; }
+
+.twenty-five { grid-area: twenty-five; }
+
+.twenty-six { grid-area: twenty-six; }
+
+.twenty-seven { grid-area: twenty-seven; }
+
+.twenty-eight { grid-area: twenty-eight; }
+
+.twenty-nine { grid-area: twenty-nine; }
+
+.thirty { grid-area: thirty; }
+
+.thirty-one { grid-area: thirty-one; }
+
+.arena { grid-area: arena; }
